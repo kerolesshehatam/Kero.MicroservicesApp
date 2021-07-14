@@ -1,0 +1,14 @@
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Application.deps.json
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Application.dll
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Application.pdb
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.csprojAssemblyReference.cache
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.AssemblyInfoInputs.cache
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.AssemblyInfo.cs
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.dll
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.pdb
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Domain.dll
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Domain.pdb
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.csproj.CopyComplete
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Infrastructure.dll
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Infrastructure.pdb
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.csproj.CoreCompileInputs.cache

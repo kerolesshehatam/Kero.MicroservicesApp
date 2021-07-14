@@ -1,0 +1,9 @@
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Domain\obj\Debug\netcoreapp3.1\Ordering.Domain.csprojAssemblyReference.cache
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Domain\obj\Debug\netcoreapp3.1\Ordering.Domain.AssemblyInfoInputs.cache
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Domain\obj\Debug\netcoreapp3.1\Ordering.Domain.AssemblyInfo.cs
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Domain\obj\Debug\netcoreapp3.1\Ordering.Domain.csproj.CoreCompileInputs.cache
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Domain\bin\Debug\netcoreapp3.1\Ordering.Domain.deps.json
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Domain\bin\Debug\netcoreapp3.1\Ordering.Domain.dll
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Domain\bin\Debug\netcoreapp3.1\Ordering.Domain.pdb
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Domain\obj\Debug\netcoreapp3.1\Ordering.Domain.dll
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Domain\obj\Debug\netcoreapp3.1\Ordering.Domain.pdb

@@ -1,0 +1,15 @@
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Ordering.Infrastructure.deps.json
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Ordering.Infrastructure.dll
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Ordering.Infrastructure.csprojAssemblyReference.cache
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Ordering.Infrastructure.AssemblyInfoInputs.cache
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Ordering.Infrastructure.AssemblyInfo.cs
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Ordering.Infrastructure.runtimeconfig.json
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Ordering.Infrastructure.runtimeconfig.dev.json
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Ordering.Infrastructure.genruntimeconfig.cache
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Ordering.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Ordering.Infrastructure.pdb
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Ordering.Domain.dll
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Ordering.Domain.pdb
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Ordering.Infrastructure.csproj.CopyComplete
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Ordering.Infrastructure.dll
+C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp\src\Ordering\Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Ordering.Infrastructure.pdb

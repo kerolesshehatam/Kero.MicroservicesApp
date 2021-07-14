@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "uajosw15QJS8e5sWM4hWY7o+dQ2jneWjKGrpnCQtbgqFszTDOJiVJ2R1/6uQexr1CzlF3ANYTrkZcRx5buiQ+w==",
+  "success": true,
+  "projectFilePath": "C:\\Keroles Shehata\\2- Programming\\GitHub\\Live\\Kero.MicroservicesApp\\src\\WebApps\\Web.MVC\\Web.MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kshehata\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\microsoft.extensions.http\\5.0.0\\microsoft.extensions.http.5.0.0.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\microsoft.extensions.http.polly\\5.0.1\\microsoft.extensions.http.polly.5.0.1.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
+    "C:\\Users\\kshehata\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

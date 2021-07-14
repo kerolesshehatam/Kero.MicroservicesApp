@@ -1,0 +1,109 @@
+services:
+  basketapi:
+    build:
+      context: C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp
+      dockerfile: src/Basket/Basket.API/Dockerfile
+    container_name: basketapi
+    depends_on:
+      basketdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CacheSettings:ConnectionString: basketdb:6379
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
+    image: basketapi
+    ports:
+    - published: 8001
+      target: 80
+  basketdb:
+    container_name: basketdb
+    image: redis:alpine
+    ports:
+    - published: 6379
+      target: 6379
+    restart: always
+  catalogapi:
+    build:
+      context: C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp
+      dockerfile: src/Catalog/Catalog.API/Dockerfile
+    container_name: catalogapi
+    depends_on:
+      catalogdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: mongodb://catalogdb:27017
+    image: catalogapi
+    ports:
+    - published: 8000
+      target: 80
+  catalogdb:
+    container_name: catalogdb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - mongo_data:/data/db:rw
+  ocelotapigw:
+    build:
+      context: C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp
+      dockerfile: src/ApiGateways/OcelotApiGw/Dockerfile
+    container_name: ocelotapigw
+    depends_on:
+      basketapi:
+        condition: service_started
+      catalogapi:
+        condition: service_started
+      orderingapi:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ocelotapigw
+    ports:
+    - published: 7000
+      target: 80
+  orderdb:
+    container_name: orderdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Kero12345678
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+    - published: 1401
+      target: 1433
+    restart: always
+  orderingapi:
+    build:
+      context: C:\Keroles Shehata\2- Programming\GitHub\Live\Kero.MicroservicesApp
+      dockerfile: src/Ordering/Ordering.API/Dockerfile
+    container_name: orderingapi
+    depends_on:
+      orderdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:OrderingConnectionString: Server=orderdb;Database=OrderDb;User
+        Id=sa;Password=Kero12345678;
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
+    image: orderingapi
+    ports:
+    - published: 8004
+      target: 80
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+    restart: always
+version: '3.4'
+volumes:
+  mongo_data: {}

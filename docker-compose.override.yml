@@ -1,0 +1,79 @@
+version: '3.4'
+
+services:
+ catalogdb:
+    container_name: catalogdb
+    restart: always
+    ports:
+        - "27017:27017"
+    volumes:
+        - mongo_data:/data/db
+
+ basketdb:
+    container_name: basketdb
+    restart: always    
+    ports:
+        - "6379:6379"
+
+ 
+ orderdb:
+    container_name: orderdb
+    environment:
+        SA_PASSWORD: "Kero12345678"
+        ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+        - "1401:1433"
+
+ rabbitmq:
+    container_name: rabbitmq
+    restart: always
+    ports:
+        - "5672:5672"
+        - "15672:15672"
+
+ catalogapi:
+    container_name: catalogapi
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "DatabaseSettings:ConnectionString=mongodb://catalogdb:27017"
+    depends_on:
+      - catalogdb
+    ports:
+      - "8000:80"
+ 
+ basketapi:
+    container_name: basketapi
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "CacheSettings:ConnectionString=basketdb:6379"
+      - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
+    depends_on:
+      - basketdb
+      - rabbitmq
+    ports:
+      - "8001:80"
+
+ orderingapi:
+    container_name: orderingapi
+    environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+        - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
+        - "ConnectionStrings:OrderingConnectionString=Server=orderdb;Database=OrderDb;User Id=sa;Password=Kero12345678;"  
+    depends_on:
+        - orderdb
+        - rabbitmq
+    ports:
+        - "8004:80"
+
+ ocelotapigw:
+    container_name: ocelotapigw
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+        - catalogapi
+        - basketapi
+        - orderingapi
+    ports:
+      - "7000:80"
+
